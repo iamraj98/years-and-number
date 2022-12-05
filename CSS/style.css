@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Monoton&family=Noto+Sans:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,200;1,700&family=Roboto:ital,wght@0,700;1,100;1,700&family=Silkscreen:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+ 
+body{
+    font-family: 'ubuntu';
+    font-weight: 600;
+   background-color: #282c2f;
+    color: rgb(206, 202, 202);
+    height: 100vh;
+}
+#main-col{
+    padding: 10px;
+}
+
+#heading{
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+#same-head{
+    font-size: 25px;
+    font-weight: 500;
+}
+#even,#leapyear{
+    margin-top: 130px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(44, 43, 43);
+    color: rgb(240, 236, 236);
+    box-shadow: 15px 15px 20px rgb(0,0,0,0.25),
+    -15px -15px 20px rgb(255,255,255,0.1);
+}
+#even-user{
+    padding:  10px ;
+}
+#even-user label, input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#even-user input[type='text']{
+    width: 70%;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.25),
+    -10px -10px 10px rgb(255,255,255,0.1);
+   border: none;
+   color: rgb(240, 236, 236);
+   transition: all 0.2s ease;
+   
+}
+#even-user input[type='text']:hover{
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.25), 
+    -10px -10px 10px rgb(255,255,255,0.1),
+    inset 10px 10px 10px rgb(0,0,0,0.25),
+   inset -10px -10px 10px rgb(255,255,255,0.1);
+}
+#even-user button{
+    box-shadow: 15px 15px 20px rgb(0,0,0,0.25),
+    -15px -15px 20px rgb(255,255,255,0.1);
+   border: none;
+   background-color: transparent;
+   transition: all 0.2s ease-in;
+}
+#even-user button:hover{
+    box-shadow:15px 15px 20px rgb(0,0,0,0.25),
+    -15px -15px 20px rgb(255,255,255,0.1),
+    inset 15px 15px 20px rgb(0,0,0,0.25),
+   inset -15px -15px 20px rgb(255,255,255,0.1);
+}
+
+#result,
+#l-result{
+    text-align: center;
+}
+#ans,#leap-result{
+    box-shadow: 15px 15px 20px rgb(0,0,0,0.25),
+    -15px -15px 20px rgb(255,255,255,0.1),
+    inset 15px 15px 20px rgb(0,0,0,0.25),
+   inset -15px -15px 20px rgb(255,255,255,0.1);
+   padding: 7px;
+   font-size: 20px;
+   border-radius: 10px;
+   width: 70%;
+   color: rgb(209, 207, 207);
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+#leapyear{
+    margin-left: 20px;
+}
+ /* .col-lg-6{
+    border: 1px solid red;
+}  */
+
+
+
+
+
+@media (max-width: 800px){
+   
+    #even{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    #same-head{
+        font-size: 20px;
+    }
+    #leapyear{
+        margin-left: 0px;
+    }
+
+
+}
